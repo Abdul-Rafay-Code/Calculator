@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: coral;
+
+}
+.calculator{
+    width: 350px;
+    margin:50px auto;
+    border: 2px solid black;
+    background-color:#703f46;
+    /* margin: 2px; */
+}
+.box1-inp input{
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    border: none;
+    font-size: 2vw;
+    outline: none;
+
+}
+.btn-parent{
+    margin: 9px;
+}
+.calculator button{
+    width: 70px;
+    height: 55px;
+    margin: 5px;
+    font-size: 2vw;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.calculator button:hover{
+    background-color: white;
+    color: black;
+}
+      
+h1{
+    text-align: center;
+}
+.btn-equal  { 
+   width: 97% !important; 
+}
